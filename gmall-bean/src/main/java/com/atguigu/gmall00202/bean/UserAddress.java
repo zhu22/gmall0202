@@ -10,6 +10,7 @@ public class UserAddress implements Serializable {
     private String id;
     @Column
     private String userAddress;
+
     @Column
     private String userId;
     @Column
