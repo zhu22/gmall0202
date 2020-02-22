@@ -24,6 +24,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public List<UserAddress> getUserAddressList(String userId) {
+        
         UserAddress userAddress = new UserAddress();
         userAddress.setUserId(userId);
         return userAddressMapper.select(userAddress);
