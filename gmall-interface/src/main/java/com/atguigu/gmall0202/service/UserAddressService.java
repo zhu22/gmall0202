@@ -5,5 +5,5 @@ import com.atguigu.gmall00202.bean.UserAddress;
 import java.util.List;
 
 public interface UserAddressService {
-    List<UserAddress> findByUserId(String userId);
+   /* List<UserAddress> findByUserId(String userId);*/
 }
